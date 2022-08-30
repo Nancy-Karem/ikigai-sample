@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.circle-class:hover {
+  background-color: #fff!important;
+  color: #ff6b03!important;
+}
+
+.career-display {
+  width: 500px;
+  height: 800px;
+  background-color: #033764;
+}
+
+.circle-text {
+  margin: auto;
+}
+
+.carousel-item-contents{
+  margin-left: 80px;
+  height: 300px;
+  width: 300px;
+  background-color: #4e7392;
+  color: #fff;
+
+}
+
+.carousel-main-div{
+  margin-top: 100px;
+}
+
+
+.top-row, .center-row, .bottom-row{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
